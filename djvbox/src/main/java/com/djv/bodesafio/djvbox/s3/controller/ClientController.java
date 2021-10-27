@@ -17,6 +17,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.djv.bodesafio.djvbox.s3.dtos.ClientDTO;
+import com.djv.bodesafio.djvbox.s3.forms.ClientForms;
 import com.djv.bodesafio.djvbox.s3.service.ClientService;
 import com.djv.bodesafio.djvbox.s3.utils.ClientHateoasUtils;
 import com.sendgrid.Response;
@@ -31,11 +32,11 @@ public class ClientController {
 
 	@PostMapping
 	@ApiOperation(value = "Create a client Proposal")
-	public ResponseEntity<?> create(@RequestBody @Valid ClientForms clientForm) {
+	public ResponseEntity<?> create(@RequestBody @Valid ClientForms clientForms) {
 
-		ClientDTO client = this.clientService.create(clientForm);
+		ClientDTO client = this.clientService.create(clientForms);
 
-		ClientHateoasUtils.create(client);
+		ClientHateoasUtils.create(clientForms);
 
 		return ResponseEntity.created(URI.create("/clients/" + client.getId())).body(client);
 

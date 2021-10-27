@@ -11,6 +11,7 @@ import com.djv.bodesafio.djvbox.s3.models.FileStorageModel;
 import com.djv.bodesafio.djvbox.s3.repositories.ClientRepository;
 import com.djv.bodesafio.djvbox.s3.repositories.FileStorageRepository;
 import com.djv.bodesafio.djvbox.s3.service.api.S3Services;
+import com.djv.bodesafio.djvbox.s3.utils.ClassConverterBuilder;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.rest.webmvc.ResourceNotFoundException;
