@@ -3,9 +3,13 @@ package com.djv.bodesafio.djvbox.s3.utils;
 import java.util.List;
 import java.util.stream.Collectors;
 
+import springfox.documentation.swagger2.mappers.ModelMapper;
+
+
 public class ClassConverterBuilder {
 
-	static ModelMapper modelMapper = new ModelMapper();
+	@SuppressWarnings("deprecation")
+	public static ModelMapper modelMapper = new ModelMapper();
 
 	public static <S, T> T build(S source, Class<T> targetclass) {
 		T newTargetClass = modelMapper.map(source, targetclass);

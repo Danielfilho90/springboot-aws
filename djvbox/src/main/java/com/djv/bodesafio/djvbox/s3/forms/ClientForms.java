@@ -32,5 +32,25 @@ public class ClientForms implements Serializable {
 		// TODO Auto-generated method stub
 		return null;
 	}
-
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getCpf() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
 }

@@ -39,4 +39,9 @@ public class ClientDTO extends RepresentationModel<ClientDTO> implements Seriali
 		return null;
 	}
 
+	public String getEmail() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }

@@ -73,7 +73,7 @@ public class ClientService {
 		client.setEmail(clientForms.getEmail());
 		client.setFirstName(clientForms.getFirstName());
 		client.setLastName(clientForms.getLastName());
-		return ClassConverterBuilder.build(clientRepository.save(clientModel), ClientDTO.class);
+		return ClassConverterBuilder.build(clientRepository.save(client), ClientDTO.class);
 	}
 
 	public void delete(Long id) {
@@ -91,6 +91,11 @@ public class ClientService {
 		return client.getFirstName()
 				+ ". Parabéns, dados registrados com sucesso, em breve voce receberá um e-mail com mais instrucoes";
 
+	}
+
+	public ClientDTO validade(Long id) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 
 }

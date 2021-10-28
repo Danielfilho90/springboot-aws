@@ -41,5 +41,9 @@ public class FileStorageModel {
 		// TODO Auto-generated method stub
 		
 	}
+	public void setFilename(String filename2) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

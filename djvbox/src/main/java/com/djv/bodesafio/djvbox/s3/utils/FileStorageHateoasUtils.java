@@ -11,6 +11,7 @@ import com.djv.bodesafio.djvbox.s3.dtos.FileStorageDTO;
 
 
 
+@SuppressWarnings("unused")
 public class FileStorageHateoasUtils {
 
 	public static void create(FileStorageDTO model) {

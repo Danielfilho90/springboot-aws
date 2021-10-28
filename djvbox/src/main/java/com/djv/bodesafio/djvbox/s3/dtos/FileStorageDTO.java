@@ -26,5 +26,13 @@ public class FileStorageDTO extends RepresentationModel<FileStorageDTO> implemen
 		// TODO Auto-generated method stub
 		return null;
 	}
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public FileStorageDTO getClient() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }
