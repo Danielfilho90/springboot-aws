@@ -1,6 +1,10 @@
+<<<<<<< HEAD
 # DJV_BOX
 Repositório criado para projeto das semanas práticas do CESAR.
 
+=======
+# djvbox
+>>>>>>> d21a2fe654db4399ed6d7668952ba2a13dedc1a7
 Tema: Controle de armazenamento de arquivos na nuvem
 
 Contexto: Com a finalidade de limitar o armazenamento de arquivos em um serviço de nuvem por um determinado usuário dependendo do plano contratado por ele. É necessário um serviço que controle o número de arquivos e capacidade de armazenamento de acordo com o plano do usuário.
