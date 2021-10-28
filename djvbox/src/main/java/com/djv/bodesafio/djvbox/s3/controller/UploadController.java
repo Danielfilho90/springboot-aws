@@ -13,6 +13,10 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.IOException;
 
 import com.amazonaws.services.s3.model.PutObjectRequest;
+import software.amazon.awssdk.core.sync.RequestBody;
+import software.amazon.awssdk.regions.Region;
+import software.amazon.awssdk.services.s3.S3Client;
+import software.amazon.awssdk.services.s3.model.*;
 import com.djv.bodesafio.djvbox.s3.service.StorageService;
 
 @RestController
@@ -28,7 +32,7 @@ public class UploadController {
         try {
 
         // Seleciona a região onde o bucket existe
-            Region region = Region.US_EAST_1;
+            Region region = Region<>;
 
         // Configura cliente para conexão
             S3Client s3 = S3Client.builder()

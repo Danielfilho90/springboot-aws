@@ -11,6 +11,9 @@ import com.djv.bodesafio.djvbox.s3.service.api.S3Services;
 import com.djv.bodesafio.djvbox.s3.utils.ContentTypeUtils;
 import com.djv.bodesafio.djvbox.s3.utils.FileStorageHateoasUtils;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.ResponseEntity;
