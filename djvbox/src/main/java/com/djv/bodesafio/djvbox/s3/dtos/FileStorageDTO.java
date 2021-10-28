@@ -22,5 +22,9 @@ public class FileStorageDTO extends RepresentationModel<FileStorageDTO> implemen
 	@JsonIgnore
 	private ClientModel clientModel;
 	private String filename;
+	public String getFilename() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

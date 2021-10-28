@@ -25,5 +25,21 @@ public class FileStorageModel {
 	private ClientModel client;
 	@Column(nullable = false)
 	private String filename;
+	public String getFilename() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Object getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public void setClient(ClientModel client2) {
+		// TODO Auto-generated method stub
+		
+	}
+	public void setId(Object id2) {
+		// TODO Auto-generated method stub
+		
+	}
 
 }

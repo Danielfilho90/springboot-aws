@@ -22,6 +22,9 @@ import com.djv.bodesafio.djvbox.s3.service.ClientService;
 import com.djv.bodesafio.djvbox.s3.utils.ClientHateoasUtils;
 import com.sendgrid.Response;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
 @RestController
 @RequestMapping("/clients")
 @Api(value = "Client Endpoint", tags = { "Client" })

@@ -24,5 +24,13 @@ public class ClientForms implements Serializable {
 	@NotEmpty
 	@CPF
 	private String cpf;
+	public Object getFile() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	public Long getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
 
 }

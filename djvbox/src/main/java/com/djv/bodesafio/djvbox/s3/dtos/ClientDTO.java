@@ -29,4 +29,14 @@ public class ClientDTO extends RepresentationModel<ClientDTO> implements Seriali
 
 	private ClientStatus status;
 
+	public String getId() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	public Object getFile() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 }
