@@ -4,13 +4,13 @@ cloud:
       access-key:
       secret-key:
     region: 
-      static: us-east-1
+      static:
     stack:
       auto: false
 
 application:
   bucket:
-    name: djv.box-desafionext
+    name: 
 
 
 spring:
