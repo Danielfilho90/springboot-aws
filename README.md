@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # DJV_BOX
 Repositório criado para projeto das semanas práticas do CESAR.
 
@@ -33,3 +34,7 @@ Plano Ilimitado - Armazenamento e arquivos ilimitados.
 Validações para as operações deverão ser consideradas na implementação do serviço e deverá retornar uma identificação do problema ocorrido. Validações necessárias:
 
 - Informações com domínio definido devem apenas aceitar valores válidos.
+=======
+# springboot-aws
+Projeto usando springboot + aws s3
+>>>>>>> ae390158c57162396fb6eb9c8f859d793ddae770
